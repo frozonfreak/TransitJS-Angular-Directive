@@ -1,0 +1,19 @@
+
+<div class="container">
+
+	<alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert()">{{alert.msg}}</alert>
+
+	<div id="square" transit-call="{perspective: '100px',rotateY: '180deg'}" transit-rotate="{perspective: '100px',rotateY: '0deg'}"> Refreshing</div>
+
+
+	<div id="square" transit-call="{scale: 2.2}" transit-rotate="{perspective: '100px',rotateY: '0deg'}"> Refreshing</div>
+
+
+	<div id="square" transit-call="{rotate: '+=30deg', x: '+=10'}" transit-rotate="{perspective: '100px',rotateY: '0deg'}"> Refreshing</div>
+
+
+	<div id="square" transit-call="{perspective: '100px',rotateY: '180deg'}" transit-rotate="{perspective: '100px',rotateY: '0deg'}"> Refreshing</div>
+
+	
+
+</div>
